@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-30
+title: "My Blog"
+date: 2017 11 01
 ---
 Hello. This is my first post. I like anime and manga. I also read actual books. Bye.
