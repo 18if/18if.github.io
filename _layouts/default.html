@@ -3,6 +3,9 @@
 		{% include head.html%}
 		{% include header.html%}
 		<div class="content-wrapper">
+			{% for post in site.posts %}
+			<h2>{{post.title}}</h2>
+			{% endfor %}
 			<div id="all">
 				{% include nav.html %}
 				{{ content }}
@@ -31,7 +34,7 @@
 					<h1>Other</h1>
 						<ul>
 							<li>For more information go to "youcanthaveany.com"</li>
-						</ul
+					</ul>
 				</div><!-- end "stuff" --> 
 			</div><!-- end "all" -->
 		</div><!-- end "content-wrapper" -->
