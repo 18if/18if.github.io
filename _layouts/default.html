@@ -4,8 +4,9 @@
 		{% include header.html%}
 		<div class="content-wrapper">
 			{% for post in site.posts %}
-			<p>{{post.date}}</p>
-			<h2>{{post.title}}</h2>
+			<h2>{{ post.title }}</h2>
+			<p>{{ post.date }}</p>
+			<p>{{ post.exerpt }}</p>
 			{% endfor %}
 			<div id="all">
 				{% include nav.html %}
