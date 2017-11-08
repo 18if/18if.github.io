@@ -4,13 +4,13 @@
 		{% include header.html%}
 		<div class="content-wrapper">
 			{% for post in site.posts %}
-			<h2>{{ post.title }}</h2>
-			<p>{{ post.date }}</p>
-			<p>{{ post.excerpt }}</p>
+				<h2>{{ post.title }}</h2>
+				<p>{{ post.date }}</p>
+				<p>{{ post.excerpt }}</p>
 			{% endfor %}
-			<a href="allpost.html">Read More</a>
 			<div id="all">
 				{% include nav.html %}
+			<a href="allposts.html">Read More</a>
 				{{ content }}
 				<button>Click me!</button>
 				<div id="stuff">
