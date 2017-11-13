@@ -9,37 +9,9 @@
 				<p>{{ post.excerpt }}</p>
 				<h4>Click <a href="{{post.url}}">Here</a> for more</h4>
 			{% endfor %}
-			<div id="all">
-				{% include nav.html %}
+			{% include nav.html %}
+			<div id="content">
 				{{ content }}
-				<button>Click me!</button>
-				<div id="stuff">
-					<h1> Likes</h1>
-						<ul>
-							<li>Anime is a big like of mine</li>  
-							<li>Manga is great</li>  
-							<li>I also enjoy actual books with words</li>
-							<li>Let's see... "The Flash" is a good show</li> 
-							<li>Umm... school is fun</li>
-							<li>Friends exists</li>
-						</ul>
-					<p>Look at this picture of a cute cat</p>
-					<img src="https://i.ytimg.com/vi/w6DW4i-mfbA/hqdefault.jpg">
-					<h1> Dislikes</h1>
-						<ul>
-							<li>You to start off with. I don't know you, but I dislike you </li>  
-							<li>I dont like knees. My own included</li>  
-							<li>Homework. I like doing it, I dont like the idea of it</li>
-							<li>Waking up. It's too hard</li> 
-							<li>Falling asleep. It's too hard</li>
-							<li>Walking. I'd rather run</li>
-						</ul>
-					<h1>Other</h1>
-						<ul>
-							<li>For more information go to "youcanthaveany.com"</li>
-					</ul>
-				</div><!-- end "stuff" --> 
-			</div><!-- end "all" -->
-		</div><!-- end "content-wrapper" -->
+			</div>
 		{% include footer.html%}
 	</html> 
