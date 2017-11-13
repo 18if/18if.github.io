@@ -2,9 +2,8 @@
 layout: post
 title: "Post Two"
 date: 2017-11-05
-excerpt_separator: <!--more-->
 ---
-Somebody once <!--more-->told me the world is gonna roll me
+Somebody once told me the world is gonna roll me
 I ain't the sharpest tool in the shed
 She was looking kind of dumb with her finger and her thumb
 In the shape of an "L" on her forehead
